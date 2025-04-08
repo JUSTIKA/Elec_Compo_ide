@@ -1,0 +1,5 @@
+# Ignore the "dataset" folder
+dataset/
+
+# Ignore the "runs" folder
+runs/
