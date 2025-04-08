@@ -1,0 +1,13 @@
+train: /home/joao/Documents/GitHub/yolo/train_fine_tuning/I2M.v3i.yolov8/train
+val: /home/joao/Documents/GitHub/yolo/train_fine_tuning/I2M.v3i.yolov8/valid
+# test: ../test/images
+
+nc: 3
+names: ['A', 'B', 'C']
+
+roboflow:
+  workspace: i2m
+  project: i2m
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/i2m/i2m/dataset/3

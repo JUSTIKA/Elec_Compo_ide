@@ -3,3 +3,5 @@ dataset/
 
 # Ignore the "runs" folder
 runs/
+
+env/
