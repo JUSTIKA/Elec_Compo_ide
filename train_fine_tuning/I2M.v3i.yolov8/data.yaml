@@ -1,5 +1,5 @@
-train: /home/joao/Documents/GitHub/yolo/train_fine_tuning/I2M.v3i.yolov8/train
-val: /home/joao/Documents/GitHub/yolo/train_fine_tuning/I2M.v3i.yolov8/valid
+train: /home/joao/Documents/GitHub/yolo/Elec_Compo_ide/train_fine_tuning/I2M.v3i.yolov8/train
+val: /home/joao/Documents/GitHub/yolo/Elec_Compo_ide/train_fine_tuning/I2M.v3i.yolov8/valid
 # test: ../test/images
 
 nc: 3
