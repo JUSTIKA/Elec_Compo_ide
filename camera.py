@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # model = YOLO("/home/joao/Documents/GitHub/yolo/Elec_Compo_ide/runs/detect/train11/weights/best.pt") #model 11
-model = YOLO("/home/joao/Documents/GitHub/yolo/Elec_Compo_ide/runs/detect/train13/weights/best.pt")
+model = YOLO("/home/joao/Documents/GitHub/yolo/Elec_Compo_ide/runs/detect/train18/weights/best.pt")
 
 cap = cv2.VideoCapture(0)  # 0 represents the default camera
 
@@ -24,7 +24,7 @@ while cap.isOpened():
         print("Error: Could not read frame from the camera.")
         break
 
-    resized_frame = cv2.resize(frame, (640, 480))  # Resize to 640x480
+    resized_frame = cv2.resize(frame, (640, 480))  # Resize to 640x480o
 
     results = model(resized_frame)
 

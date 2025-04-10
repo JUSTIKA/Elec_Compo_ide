@@ -1,0 +1,12 @@
+train: /home/joao/Documents/GitHub/yolo/Elec_Compo_ide/train_fine_tuningV3/I2M.v6i.yolov8/train
+val: /home/joao/Documents/GitHub/yolo/Elec_Compo_ide/train_fine_tuningV3/I2M.v6i.yolov8/valid
+
+nc: 6
+names: ['A', 'B', 'C', 'D', 'E', 'F']
+
+roboflow:
+  workspace: i2m
+  project: i2m
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/i2m/i2m/dataset/6
