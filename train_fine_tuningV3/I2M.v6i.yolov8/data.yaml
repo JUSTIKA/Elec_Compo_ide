@@ -1,5 +1,5 @@
-train: /home/joao/Documents/GitHub/yolo/Elec_Compo_ide/train_fine_tuningV3/I2M.v6i.yolov8/train
-val: /home/joao/Documents/GitHub/yolo/Elec_Compo_ide/train_fine_tuningV3/I2M.v6i.yolov8/valid
+train: C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\train_fine_tuningV3\I2M.v6i.yolov8\train
+val: C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\train_fine_tuningV3\I2M.v6i.yolov8\valid
 
 nc: 6
 names: ['A', 'B', 'C', 'D', 'E', 'F']
