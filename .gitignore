@@ -1,2 +1,13 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-*
+
+.venv/
+Lib/
+include/
+pyvenv.cfg
+%USERPROFILE%/
+install-pyenv-win.ps1
+.python-version
+first_model/
+yolo11n.pt
+yolov8s.pt
+AttentionCustomUNet.h5
