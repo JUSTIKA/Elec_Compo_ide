@@ -1,0 +1,12 @@
+train: C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\train_fine_tuningV6\train
+val: C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\train_fine_tuningV6\valid
+
+nc: 7
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'Wires']
+
+roboflow:
+  workspace: i2m
+  project: i2m
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/i2m/i2m/dataset/9
