@@ -2,9 +2,9 @@ from ultralytics import YOLO
 import cv2
 
 # model = YOLO("/home/joao/Documents/GitHub/yolo/Elec_Compo_ide/runs/detect/train11/weights/best.pt") #model 11
-model = YOLO("/home/joao/Documents/GitHub/yolo/Elec_Compo_ide/Test sets/train8/weights/best.pt")
+model = YOLO("/home/joao/Documents/GitHub/yolo/Elec_Compo_ide/runs/detect/train23/weights/best.pt")
 
-cap = cv2.VideoCapture(0)  # 0 represents the default camera
+cap = cv2.VideoCapture(2)  # 0 represents the default camera
 
 if not cap.isOpened():
     print("Error: Could not open the camera.")
