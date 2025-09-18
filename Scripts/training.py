@@ -1,15 +1,15 @@
 from ultralytics import YOLO
 
 def main():
-    model = YOLO(r"C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\runs\detect\train8\weights\best.pt")
+    model = YOLO(r"C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\runs\detect\train23\weights\best.pt")
 
     results = model.train(
-        data=r"C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\train_fine_tuningV6\data.yaml",
-        epochs=600,
+        data=r"C:\Users\vaioj\OneDrive\Documents\GitHub\Elec_Compo_ide\train_fine_tuningV7\data.yaml",
+        epochs=100,
         imgsz=480,
         batch=8,
         freeze=10,
-        lr0=0.0001,
+        lr0=0.000001,
         verbose=True,
         # resume=True,
         plots=True,
